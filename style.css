@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: "border-box";
+}
+
+html {
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 215, 1) 100%
+  );
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: "Comfortaa", cursive;
+  color: azure;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 40vh;
+}
+
+.btn {
+  font-family: "Comfortaa", cursive;
+  font-size: 1.2em;
+  font-weight: 600;
+  letter-spacing: 0.5em;
+  color: azure;
+  background-color: rgba(252, 70, 215, 1);
+  border-style: none;
+  padding: 1em;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(223, 75, 193);
+}
